@@ -7,7 +7,7 @@ import javax.imageio.ImageIO;
 
 import tarlgrenier.rain.entity.mob.Chaser;
 import tarlgrenier.rain.entity.mob.Dummy;
-import tarlgrenier.rain.level.tile.Tile;
+import tarlgrenier.rain.entity.mob.Star;
 
 public class SpawnLevel extends Level {
 
@@ -28,6 +28,7 @@ public class SpawnLevel extends Level {
 			System.out.println("Exception! Could not load level file!");
 		}
 		add(new Chaser(20, 55));
+		add(new Star(17, 35));
 		for (int i = 0; i < 5; i++) {
 			add(new Dummy(20, 55));
 		}

@@ -24,14 +24,13 @@ import tarlgrenier.rain.level.RandomLevel;
 import tarlgrenier.rain.level.SpawnLevel;
 import tarlgrenier.rain.level.TileCoordinate;
 
-@SuppressWarnings("unused")
 public class Game extends Canvas implements Runnable {
 	private static final long serialVersionUID = 1L;
 
 	private static int width = 300;
 	private static int height = width / 16 * 9;
 	private static int scale = 3;
-	public static String title = "Ghostbusters Inc.";
+	public static String title = "Rain";
 
 	private Thread thread;
 	private JFrame frame;
